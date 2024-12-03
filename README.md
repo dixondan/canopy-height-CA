@@ -11,6 +11,8 @@ This repository is associated with the article "Canopy height estimation from Pl
 
 Visualize the predicted model outputs for the Sierra Nevada in 2022 in this [Google Earth Engine supported web application](https://ca-forest-structure.projects.earthengine.app/view/canopy-height)
 
+Graphical abstract:
 <p align="center">
   <img src="figs/fig1-diagram.png" />
 </p>
+
