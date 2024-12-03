@@ -1,7 +1,7 @@
 
 # canopy-height-CA
 
-Last updated: 09.2023
+Last updated: 12.2024
 
 Overview
 --------
@@ -11,5 +11,5 @@ This repository is associated with the article "Canopy height estimation from Pl
 
 Graphical abstract:
 <p align="center">
-  <img src="figs/graphical_abstract.jpg" />
+  <img src="figs/fig1-diagram.png" />
 </p>
