@@ -1,5 +1,5 @@
 
-# canopy-mortality-CA
+# canopy-height-CA
 
 Last updated: 09.2023
 
