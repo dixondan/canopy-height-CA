@@ -1,0 +1,9 @@
+Go to the data repository https://osf.io/7xz28/
+
+In the folder height-labels/testing you will find the 1,000 test images at 3 m resolution and 128 X 128 pixels. There are two bands:
+
+band 1: observed canopy height in meters from aerial lidar
+band 2: predicted canopy height in meters from ST-CNN (PlanetScope + Sentinel1 + solar layers) in the primary model 
+
+The locations of test scenes are in the shapefile height-labels/meta/test-quadrants-n250.shp
+
