@@ -7,3 +7,9 @@ band 2: predicted canopy height in meters from ST-CNN (PlanetScope + Sentinel1 +
 
 The locations of test scenes are in the shapefile height-labels/meta/test-quadrants-n250.shp
 
+The naming convention of the file is siteid-year-sub1-sub2 where
+   - site id is a string and number identifying that scene or quadrant
+   - year is the year of planetscope imagery used for prediction
+   - sub1 is the index identifier within a grid (0 to 15)
+   - sub2 is the index identifier within a scene to define quadrants (0 to 3)
+
