@@ -315,6 +315,14 @@ for s1, topo in [(True, True), (False, False), (True, False)]:
                       metrics=['mean_absolute_error'],
                       optimizer=optimizer)
 
+    # the input X image has the following dimensions:
+    # 49 bands
+    # bands 1 - 4 (first median planetscope image (b,g,r,nir) from June 1 to June 15) with scale factor  * 10000
+    # bands 5 - 8 (secton median planetscope image from June 15 to June 30) with scale factor  * 10000
+    # and so on to band 39
+    # bands 41 - 44 are sentinel 1
+    # bands 45 to 49 are solar layers
+
     image_folder = 'height_v9-128/train/X'
     mask_folder = 'height_v9-128/train/y'
 
