@@ -16,3 +16,8 @@ Graphical abstract:
   <img src="figs/fig1-diagram.png" />
 </p>
 
+Included are the ST-CNN Python code (model/st-cnn_height_s1True_topoTrue.zip) and saved TensorFlow model (model/st-cnn_height_s1True_topoTrue.zip). 
+
+You can find model training labels, testing labels and testing predictions in the data repository on the Open Science Framework repository (https://osf.io/7xz28/wiki/home/).
+
+Also included are the train/test locations in the folder "data". 
